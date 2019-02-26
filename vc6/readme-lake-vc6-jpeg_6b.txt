@@ -315,5 +315,5 @@ Test
 
 cjpeg.exe   testimg.bmp   testimg-lake.jpg
 
-djpeg.exe   -bmp  testimg-lake.jpg  testimg-lake-djpeg.bmp 
+djpeg.exe   -bmp  testimg.jpg  testimg-lake-djpeg.bmp 
 
