@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+873622296 source:d:\develop\crossplatform\libjpeg\jpeg-6b\cdjpeg.c
+	"cdjpeg.h"
+	<ctype.h>
+	<signal.h>
+	<fcntl.h>
+	<io.h>
+
+874229576 d:\develop\crossplatform\libjpeg\jpeg-6b\cdjpeg.h
+	"jinclude.h"
+	"jpeglib.h"
+	"jerror.h"
+	"cderror.h"
+
+765185372 d:\develop\crossplatform\libjpeg\jpeg-6b\jinclude.h
+	"jconfig.h"
+	<stddef.h>
+	<stdlib.h>
+	<sys/types.h>
+	<stdio.h>
+	<strings.h>
+	<string.h>
+
+1551270518 d:\develop\crossplatform\libjpeg\jpeg-6b\jconfig.h
+
+888043694 d:\develop\crossplatform\libjpeg\jpeg-6b\jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+871127936 d:\develop\crossplatform\libjpeg\jpeg-6b\jmorecfg.h
+
+861450276 d:\develop\crossplatform\libjpeg\jpeg-6b\jpegint.h
+
+877157950 d:\develop\crossplatform\libjpeg\jpeg-6b\jerror.h
+
+882323452 d:\develop\crossplatform\libjpeg\jpeg-6b\cderror.h
+
+890396510 source:d:\develop\crossplatform\libjpeg\jpeg-6b\cjpeg.c
+	"cdjpeg.h"
+	"jversion.h"
+	<SIOUX.h>
+	<console.h>
+	<console.h>
+	"cderror.h"
+
+890994856 d:\develop\crossplatform\libjpeg\jpeg-6b\jversion.h
+
+820924314 source:d:\develop\crossplatform\libjpeg\jpeg-6b\rdbmp.c
+	"cdjpeg.h"
+
+872255990 source:d:\develop\crossplatform\libjpeg\jpeg-6b\rdgif.c
+	"cdjpeg.h"
+
+882322768 source:d:\develop\crossplatform\libjpeg\jpeg-6b\rdppm.c
+	"cdjpeg.h"
+
+820924340 source:d:\develop\crossplatform\libjpeg\jpeg-6b\rdrle.c
+	"cdjpeg.h"
+	<rle.h>
+
+821515366 source:d:\develop\crossplatform\libjpeg\jpeg-6b\rdswitch.c
+	"cdjpeg.h"
+	<ctype.h>
+
+820989756 source:d:\develop\crossplatform\libjpeg\jpeg-6b\rdtarga.c
+	"cdjpeg.h"
+

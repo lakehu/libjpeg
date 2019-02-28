@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cjpeg" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cjpeg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-outfile    ../testimg-cb.jpg  ../testimg.bmp" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cjpeg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-outfile    ../testimg-cb.jpg  ../testimg.bmp" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="../libjpeg.a" />
+		</Linker>
+		<Unit filename="../cdjpeg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../cjpeg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../rdbmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../rdgif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../rdppm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../rdrle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../rdswitch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../rdtarga.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
