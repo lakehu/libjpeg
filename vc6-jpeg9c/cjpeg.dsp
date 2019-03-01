@@ -55,35 +55,35 @@ LINK32=link.exe
 # PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90"
 # Begin Source File
 
-SOURCE=.\cdjpeg.c
+SOURCE=..\cdjpeg.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\cjpeg.c
+SOURCE=..\cjpeg.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\rdbmp.c
+SOURCE=..\rdbmp.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\rdgif.c
+SOURCE=..\rdgif.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\rdppm.c
+SOURCE=..\rdppm.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\rdrle.c
+SOURCE=..\rdrle.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\rdswitch.c
+SOURCE=..\rdswitch.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\rdtarga.c
+SOURCE=..\rdtarga.c
 # End Source File
 # End Group
 # Begin Group "Header-Dateien"
@@ -91,35 +91,35 @@ SOURCE=.\rdtarga.c
 # PROP Default_Filter "h;hpp;hxx;hm;inl;fi;fd"
 # Begin Source File
 
-SOURCE=.\cderror.h
+SOURCE=..\cderror.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\cdjpeg.h
+SOURCE=..\cdjpeg.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jconfig.h
+SOURCE=..\jconfig.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jerror.h
+SOURCE=..\jerror.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jinclude.h
+SOURCE=..\jinclude.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jmorecfg.h
+SOURCE=..\jmorecfg.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jpeglib.h
+SOURCE=..\jpeglib.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jversion.h
+SOURCE=..\jversion.h
 # End Source File
 # End Group
 # Begin Group "Ressourcendateien"

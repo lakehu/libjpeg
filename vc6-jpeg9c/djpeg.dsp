@@ -1,23 +1,23 @@
-# Microsoft Developer Studio Project File - Name="jpegtran" - Package Owner=<4>
+# Microsoft Developer Studio Project File - Name="djpeg" - Package Owner=<4>
 # Microsoft Developer Studio Generated Build File, Format Version 6.00
 # ** NICHT BEARBEITEN **
 
 # TARGTYPE "Win32 (x86) Console Application" 0x0103
 
-CFG=jpegtran - Win32
+CFG=djpeg - Win32
 !MESSAGE Dies ist kein gültiges Makefile. Zum Erstellen dieses Projekts mit NMAKE
 !MESSAGE verwenden Sie den Befehl "Makefile exportieren" und führen Sie den Befehl
 !MESSAGE 
-!MESSAGE NMAKE /f "jpegtran.mak".
+!MESSAGE NMAKE /f "djpeg.mak".
 !MESSAGE 
 !MESSAGE Sie können beim Ausführen von NMAKE eine Konfiguration angeben
 !MESSAGE durch Definieren des Makros CFG in der Befehlszeile. Zum Beispiel:
 !MESSAGE 
-!MESSAGE NMAKE /f "jpegtran.mak" CFG="jpegtran - Win32"
+!MESSAGE NMAKE /f "djpeg.mak" CFG="djpeg - Win32"
 !MESSAGE 
 !MESSAGE Für die Konfiguration stehen zur Auswahl:
 !MESSAGE 
-!MESSAGE "jpegtran - Win32" (basierend auf  "Win32 (x86) Console Application")
+!MESSAGE "djpeg - Win32" (basierend auf  "Win32 (x86) Console Application")
 !MESSAGE 
 
 # Begin Project
@@ -28,15 +28,15 @@ CPP=cl.exe
 RSC=rc.exe
 # PROP BASE Use_MFC 0
 # PROP BASE Use_Debug_Libraries 0
-# PROP BASE Output_Dir ".\jpegtran\Release"
-# PROP BASE Intermediate_Dir ".\jpegtran\Release"
-# PROP BASE Target_Dir ".\jpegtran"
+# PROP BASE Output_Dir ".\djpeg\Release"
+# PROP BASE Intermediate_Dir ".\djpeg\Release"
+# PROP BASE Target_Dir ".\djpeg"
 # PROP Use_MFC 0
 # PROP Use_Debug_Libraries 0
-# PROP Output_Dir ".\jpegtran\Release"
-# PROP Intermediate_Dir ".\jpegtran\Release"
+# PROP Output_Dir ".\djpeg\Release"
+# PROP Intermediate_Dir ".\djpeg\Release"
 # PROP Ignore_Export_Lib 0
-# PROP Target_Dir ".\jpegtran"
+# PROP Target_Dir ".\djpeg"
 # ADD BASE CPP /nologo /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /YX /c
 # ADD CPP /nologo /G6 /MT /W3 /GX /Ox /Oa /Ob2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /YX /FD /c
 # ADD BASE RSC /l 0x409 /d "NDEBUG"
@@ -49,25 +49,41 @@ LINK32=link.exe
 # ADD LINK32 Release\jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /machine:I386
 # Begin Target
 
-# Name "jpegtran - Win32"
+# Name "djpeg - Win32"
 # Begin Group "Quellcodedateien"
 
 # PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90"
 # Begin Source File
 
-SOURCE=.\cdjpeg.c
+SOURCE=..\cdjpeg.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\jpegtran.c
+SOURCE=..\djpeg.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\rdswitch.c
+SOURCE=..\rdcolmap.c
 # End Source File
 # Begin Source File
 
-SOURCE=.\transupp.c
+SOURCE=..\wrbmp.c
+# End Source File
+# Begin Source File
+
+SOURCE=..\wrgif.c
+# End Source File
+# Begin Source File
+
+SOURCE=..\wrppm.c
+# End Source File
+# Begin Source File
+
+SOURCE=..\wrrle.c
+# End Source File
+# Begin Source File
+
+SOURCE=..\wrtarga.c
 # End Source File
 # End Group
 # Begin Group "Header-Dateien"
@@ -75,43 +91,35 @@ SOURCE=.\transupp.c
 # PROP Default_Filter "h;hpp;hxx;hm;inl;fi;fd"
 # Begin Source File
 
-SOURCE=.\cderror.h
+SOURCE=..\cderror.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\cdjpeg.h
+SOURCE=..\cdjpeg.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jconfig.h
+SOURCE=..\jconfig.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jerror.h
+SOURCE=..\jerror.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jinclude.h
+SOURCE=..\jinclude.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jmorecfg.h
+SOURCE=..\jmorecfg.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jpegint.h
+SOURCE=..\jpeglib.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\jpeglib.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\jversion.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\transupp.h
+SOURCE=..\jversion.h
 # End Source File
 # End Group
 # Begin Group "Ressourcendateien"
