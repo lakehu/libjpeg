@@ -132,27 +132,27 @@ clean:
 	$(RM) testout*
 
 setup-vc6:
-	ren jconfig.vc jconfig.h
-	ren makejdsw.vc6 jpeg.dsw
-	ren makeadsw.vc6 apps.dsw
-	ren makejmak.vc6 jpeg.mak
-	ren makejdep.vc6 jpeg.dep
-	ren makejdsp.vc6 jpeg.dsp
-	ren makecmak.vc6 cjpeg.mak
-	ren makecdep.vc6 cjpeg.dep
-	ren makecdsp.vc6 cjpeg.dsp
-	ren makedmak.vc6 djpeg.mak
-	ren makeddep.vc6 djpeg.dep
-	ren makeddsp.vc6 djpeg.dsp
-	ren maketmak.vc6 jpegtran.mak
-	ren maketdep.vc6 jpegtran.dep
-	ren maketdsp.vc6 jpegtran.dsp
-	ren makermak.vc6 rdjpgcom.mak
-	ren makerdep.vc6 rdjpgcom.dep
-	ren makerdsp.vc6 rdjpgcom.dsp
-	ren makewmak.vc6 wrjpgcom.mak
-	ren makewdep.vc6 wrjpgcom.dep
-	ren makewdsp.vc6 wrjpgcom.dsp
+	copy jconfig.vc jconfig.h
+	copy makejdsw.vc6 jpeg.dsw
+	copy makeadsw.vc6 apps.dsw
+	copy makejmak.vc6 jpeg.mak
+	copy makejdep.vc6 jpeg.dep
+	copy makejdsp.vc6 jpeg.dsp
+	copy makecmak.vc6 cjpeg.mak
+	copy makecdep.vc6 cjpeg.dep
+	copy makecdsp.vc6 cjpeg.dsp
+	copy makedmak.vc6 djpeg.mak
+	copy makeddep.vc6 djpeg.dep
+	copy makeddsp.vc6 djpeg.dsp
+	copy maketmak.vc6 jpegtran.mak
+	copy maketdep.vc6 jpegtran.dep
+	copy maketdsp.vc6 jpegtran.dsp
+	copy makermak.vc6 rdjpgcom.mak
+	copy makerdep.vc6 rdjpgcom.dep
+	copy makerdsp.vc6 rdjpgcom.dsp
+	copy makewmak.vc6 wrjpgcom.mak
+	copy makewdep.vc6 wrjpgcom.dep
+	copy makewdsp.vc6 wrjpgcom.dsp
 
 setup-v15:
 	ren jconfig.vc jconfig.h
