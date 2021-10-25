@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cjpeg", "cjpeg.vcxproj", "{E020A4C9-73AF-41EC-928F-1FA30F90F775}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "djpeg", "djpeg.vcxproj", "{94812EF1-AD2B-43A0-9EAE-EEA530B7A022}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jpeg", "jpeg.vcxproj", "{9F54B1A5-52A1-45B3-963B-5AA5F3613579}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jpegtran", "jpegtran.vcxproj", "{57E3EE26-4E19-48B8-ACBE-52D9453991B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rdjpgcom", "rdjpgcom.vcxproj", "{08DD38F2-A6C8-4889-AB67-E46FC834322C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wrjpgcom", "wrjpgcom.vcxproj", "{13DD2B45-F431-42B5-AAB9-EA14AFD78FC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E020A4C9-73AF-41EC-928F-1FA30F90F775}.Debug|x86.ActiveCfg = Debug|Win32
+		{E020A4C9-73AF-41EC-928F-1FA30F90F775}.Debug|x86.Build.0 = Debug|Win32
+		{E020A4C9-73AF-41EC-928F-1FA30F90F775}.Debug|x86.ActiveCfg = Debug|Win32
+		{E020A4C9-73AF-41EC-928F-1FA30F90F775}.Debug|x86.Build.0 = Debug|Win32
+		{94812EF1-AD2B-43A0-9EAE-EEA530B7A022}.Debug|x86.ActiveCfg = Debug|Win32
+		{94812EF1-AD2B-43A0-9EAE-EEA530B7A022}.Debug|x86.Build.0 = Debug|Win32
+		{94812EF1-AD2B-43A0-9EAE-EEA530B7A022}.Debug|x86.ActiveCfg = Debug|Win32
+		{94812EF1-AD2B-43A0-9EAE-EEA530B7A022}.Debug|x86.Build.0 = Debug|Win32
+		{9F54B1A5-52A1-45B3-963B-5AA5F3613579}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F54B1A5-52A1-45B3-963B-5AA5F3613579}.Debug|x86.Build.0 = Debug|Win32
+		{9F54B1A5-52A1-45B3-963B-5AA5F3613579}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F54B1A5-52A1-45B3-963B-5AA5F3613579}.Debug|x86.Build.0 = Debug|Win32
+		{57E3EE26-4E19-48B8-ACBE-52D9453991B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{57E3EE26-4E19-48B8-ACBE-52D9453991B4}.Debug|x86.Build.0 = Debug|Win32
+		{57E3EE26-4E19-48B8-ACBE-52D9453991B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{57E3EE26-4E19-48B8-ACBE-52D9453991B4}.Debug|x86.Build.0 = Debug|Win32
+		{08DD38F2-A6C8-4889-AB67-E46FC834322C}.Debug|x86.ActiveCfg = Debug|Win32
+		{08DD38F2-A6C8-4889-AB67-E46FC834322C}.Debug|x86.Build.0 = Debug|Win32
+		{08DD38F2-A6C8-4889-AB67-E46FC834322C}.Debug|x86.ActiveCfg = Debug|Win32
+		{08DD38F2-A6C8-4889-AB67-E46FC834322C}.Debug|x86.Build.0 = Debug|Win32
+		{13DD2B45-F431-42B5-AAB9-EA14AFD78FC0}.Debug|x86.ActiveCfg = Debug|Win32
+		{13DD2B45-F431-42B5-AAB9-EA14AFD78FC0}.Debug|x86.Build.0 = Debug|Win32
+		{13DD2B45-F431-42B5-AAB9-EA14AFD78FC0}.Debug|x86.ActiveCfg = Debug|Win32
+		{13DD2B45-F431-42B5-AAB9-EA14AFD78FC0}.Debug|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C17DC8E9-1E07-456E-9EB6-661F559F1628}
+	EndGlobalSection
+EndGlobal
